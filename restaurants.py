@@ -17,6 +17,13 @@ restaurants = [
             photo_url='https://lh3.googleusercontent.com/gps-proxy/ALd4DhHrxNqqhSrNcJEVod2bLbN_wsKuzXnKa1tbE41XctLJqk8k8BLvtGUP39lMaYtNKEitNnwyy_vOAb5Z_AQvbgA-VsrK7IKKGSWY3uC54EMKgsWBHWpNGABQJFPZFa4tKI7xGtFTWvPo-WTKIc_zc-7hqlEXVKdTqUN-sYJ2D8Q1ZlyUH8yjYDnNXQ=s1360-w1360-h1020',
             address='Нижний Новгород, Большая Покровская ул., 22'
             ),
-        
+        Restaurant(
+            id=3,
+            title='Местечко моей мечты',
+            description='«Местечко моей мечты» — это заведение быстрого питания, где можно вкусно и сытно перекусить. Гостям нравится местная шаурма, особенно шаурма с жульеном, а также бистро с курицей или мясом.Средний чек выходит всего на 350 рублей!!!',
+            photo_url='https://yandex.ru/maps/org/mestechko_moyey_mechty/231615246267/gallery/?ll=44.032917%2C56.323049&photos%5Bbusiness%5D=231615246267&photos%5Bid%5D=urn%3Ayandex%3Asprav%3Aphoto%3ASpUu9M08MTrTaFRaduKv80SxmxthMQupl&z=15',
+            address='Нижний Новгород, Большая Печёрская ул., 48А'
+        ),
+
 
 ]
