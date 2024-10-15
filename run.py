@@ -11,8 +11,8 @@ import logging
 
 async def main():
     # session: AiohttpSession = AiohttpSession(proxy='http://proxy.server:3128') #pythonanywhere
-    #TOKEN_BOT = os.getenv('TOKEN_BOT')
-    TOKEN_BOT = '7575453212:AAFgTeoL6650jRmY9bHB8_UA12iztszK0TM'
+    TOKEN_BOT = os.getenv('TOKEN_BOT')
+
     bot = Bot(token=TOKEN_BOT, parse_mode=ParseMode.HTML)
 
     await bot.delete_webhook(True)
