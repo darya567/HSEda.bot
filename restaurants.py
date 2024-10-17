@@ -24,6 +24,19 @@ restaurants = [
             photo_url='https://yandex.ru/maps/org/mestechko_moyey_mechty/231615246267/gallery/?ll=44.032917%2C56.323049&photos%5Bbusiness%5D=231615246267&photos%5Bid%5D=urn%3Ayandex%3Asprav%3Aphoto%3ASpUu9M08MTrTaFRaduKv80SxmxthMQupl&z=15',
             address='Нижний Новгород, Большая Печёрская ул., 48А'
         ),
-
+        Restaurant(
+            id=4, 
+            title='Столовая №1',
+            description='Столовая №1 — это место, где можно вкусно и недорого поесть. Здесь большой выбор блюд, включая супы, вторые блюда, гарниры, салаты, выпечку и десерты.',
+            photo_url='https://lh3.googleusercontent.com/p/AF1QipMoiY50TTtdG2I8QmenbfWLqCwQdHXMWm0BpoBb=s1360-w1360-h1020',
+            address='Нижний Новгород, Большая Покровская ул., 24/22'
+            ),
+        Restaurant(
+            id=5, 
+            title='Совок',
+            description='«Совок» — это место, где можно попробовать вкусную лапшу вок и венские вафли. Лапша вок здесь готовится вручную, а в меню есть конструктор, который позволяет выбрать лапшу, соус, источник белка и дополнительные ингредиенты, такие как овощи.',
+            photo_url='https://aaanya.ru/wp-content/uploads/2018/05/Sovok.jpg',
+            address='Нижний Новгород, Большая Покровская ул., 2'
+            ),
 
 ]
