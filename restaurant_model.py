@@ -7,3 +7,4 @@ class Restaurant(BaseModel):
     description: str
     photo_url: str
     address: str
+    avg_price: float
