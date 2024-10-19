@@ -25,7 +25,7 @@ restaurants = [
             description='«Местечко моей мечты» — это заведение быстрого питания, где можно вкусно и сытно перекусить. Гостям нравится местная шаурма, особенно шаурма с жульеном, а также бистро с курицей или мясом.',
             photo_url='https://yandex.ru/maps/org/mestechko_moyey_mechty/231615246267/gallery/?ll=44.032917%2C56.323049&photos%5Bbusiness%5D=231615246267&photos%5Bid%5D=urn%3Ayandex%3Asprav%3Aphoto%3ASpUu9M08MTrTaFRaduKv80SxmxthMQupl&z=15',
             address='Нижний Новгород, ул. Большая Печёрская, 48А',
-            avg_price=200.0
+            avg_price=350.0
         ),
         Restaurant(
             id=4, 
