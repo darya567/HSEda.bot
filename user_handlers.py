@@ -22,20 +22,20 @@ async def cmd_start(message: Message):
 
 
 @user_router.message(StateFilter(default_state), 
-                     (F.text == 'Рестораны с средним чеком до 500руб') | 
-                     (F.text == 'Рестораны с средним чеком от 500 до 1000руб') | 
-                     (F.text == 'Рестораны с средним чеком от 1000руб'))
+                     (F.text == 'Рестораны со средним чеком до 500 р.') | 
+                     (F.text == 'Рестораны со средним чеком от 500 до 1000 р.') | 
+                     (F.text == 'Рестораны со средним чеком от 1000 р.'))
 async def get_restaurants(message: Message):
     current_page = 1
     result = None
     category_ = None
-    if message.text == 'Рестораны с средним чеком до 500руб':
+    if message.text == 'Рестораны со средним чеком до 500 р.':
         result = [i for i in restaurants if i.avg_price <= 500]
         category_ = 1
-    elif message.text == 'Рестораны с средним чеком от 500 до 1000руб':
+    elif message.text == 'Рестораны со средним чеком от 500 до 1000 р.':
         result = [i for i in restaurants if 500 < i.avg_price <= 1000 ]
         category_ = 2
-    elif message.text == 'Рестораны с средним чеком от 1000руб':
+    elif message.text == 'Рестораны со средним чеком от 1000 р.':
         result = [i for i in restaurants if i.avg_price > 1000]
         category_ = 3
     res, total_count = result, len(result)
