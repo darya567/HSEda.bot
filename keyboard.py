@@ -9,7 +9,6 @@ def get_categories():
             [KeyboardButton(text='Рестораны с средним чеком от 500 до 1000руб')],
             [KeyboardButton(text='Рестораны с средним чеком от 1000руб')]
         ],
-        resize_keyboard=True,
-        one_time_keyboard=True
+        resize_keyboard=True
     )
     return keyboard
