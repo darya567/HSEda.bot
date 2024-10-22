@@ -49,7 +49,7 @@ async def get_restaurants(message: Message):
         f'Список ресторанов: \n',
         reply_markup=get_pagination_keyboard(restaurants=paginated_restaurants, current_page=current_page, total_pages=total_pages, category=category_)
     )
-    await message.answer(f'Категория: {message.text}', reply_markup=ReplyKeyboardRemove())
+    await message.answer(f'Категория: {message.text}')
 
 
 @user_router.callback_query(StateFilter(default_state), F.data.startswith('page_'))
